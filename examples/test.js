@@ -2,7 +2,7 @@ var util = require('util');
 
 var async = require('async');
 
-var SensorTag = require('./index');
+var SensorTag = require('../lib/sensortag');
 
 var USE_READ = true;
 

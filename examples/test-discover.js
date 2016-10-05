@@ -1,4 +1,4 @@
-var SensorTag = require('./index');
+var SensorTag = require('../lib/sensortag');
 
 function onDiscover(sensorTag) {
   console.log('discovered: ' + sensorTag.id + ', type = ' + sensorTag.type);

@@ -13,7 +13,7 @@ Node.js lib for the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor) and [
 ## Install
 
 ```sh
-npm install sensortag
+npm install node-sensortag
 ```
 
 ## Examples

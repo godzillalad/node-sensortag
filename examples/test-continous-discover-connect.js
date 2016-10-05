@@ -1,4 +1,4 @@
-var SensorTag = require('./index');
+var SensorTag = require('../lib/sensortag');
 
 function sensorTagDisovered(sensorTag) {
   console.log('discovered: ' + sensorTag);

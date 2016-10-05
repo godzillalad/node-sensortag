@@ -1,5 +1,5 @@
 {
-  "name": "sensortag",
+  "name": "node-sensortag",
   "version": "1.2.3",
   "description": "Node.js lib for the TI SensorTag",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/node-sensortag"
+    "url": "https://github.com/godzillalad/node-sensortag"
   },
   "keywords": [
     "TI",
     "SensorTag"
   ],
-  "author": "Sandeep Mistry",
+  "author": "Sandeep Mistry; Shane Lynch",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
