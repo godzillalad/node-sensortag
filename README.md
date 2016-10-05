@@ -8,17 +8,33 @@ Node.js lib for the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor) and [
 ## Prerequisites
 
  * [node-gyp install guide](https://github.com/nodejs/node-gyp#installation)
+ ```sh
+ npm install -g node-gyp
+ ```
  * [noble prerequisites](https://github.com/sandeepmistry/noble#prerequisites)
-
+ 
+#### Ubuntu/Debian/Raspbian
+```sh
+sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
+```
 ## Install
 
 ```sh
 npm install node-sensortag
+
+npm install https://github.com/godzillalad/node-sensortag
+
 ```
 
 ## Examples
 
 See [test.js](test.js) or [sensorTag folder in Tom Igoe's BluetoothLE-Examples repo ](https://github.com/tigoe/BluetoothLE-Examples/tree/master/sensorTag)
+
+#### Run a disovery of all sensor tags
+```javascript
+node test/test-discover.js
+```
+
 
 ## Usage
 
