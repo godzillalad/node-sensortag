@@ -6,6 +6,9 @@ var SensorTag = require('../lib/sensortag');
 
 var USE_READ = true;
 
+console.log("Don't forget to turn on and start the Sensor Tag BLE connect. You should see the Green LED flash");
+
+
 SensorTag.discover(function(sensorTag) {
   console.log('discovered: ' + sensorTag);
 

@@ -25,6 +25,8 @@ Take the code directly from GitHub as it's not hosted on NPM repo
 ```sh
  sudo npm install https://github.com/godzillalad/node-sensortag
 ```
+TODO : Make sure to install the async module
+
 
 ## Examples
 
