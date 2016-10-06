@@ -1,3 +1,6 @@
+# Version 1.2.4
+ * modify structure
+
 # Version 1.2.3
 
  * CC2650 now also treats advertised service UUID ```aa80``` as device ([@julianoAffonso](https://github.com/julianoAffonso))
