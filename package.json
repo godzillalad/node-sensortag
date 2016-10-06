@@ -1,8 +1,8 @@
 {
   "name": "node-sensortag",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Node.js lib for the TI SensorTag",
-  "main": "index.js",
+  "main": "sensortag.js",
   "scripts": {
     "test": "jshint lib/*.js"
   },
@@ -18,8 +18,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "noble-device": "^1.4.1",
-    "async": "~0.2.7"
+    "noble-device": "^1.4.1"
   },
   "devDependencies": {
     "async": "~0.2.7",

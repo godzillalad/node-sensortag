@@ -1,5 +1,5 @@
-var CC2540SensorTag = require('./cc2540');
-var CC2650SensorTag = require('./cc2650');
+var CC2540SensorTag = require('common/cc2540');
+var CC2650SensorTag = require('common/cc2650');
 
 var SensorTag = function() {
 };
