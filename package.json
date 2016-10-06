@@ -4,7 +4,7 @@
   "description": "Node.js lib for the TI SensorTag, adding in the dev dependencies to make life easier for single npm install",
   "main": "sensortag.js",
   "scripts": {
-    "test": "jshint lib/*.js"
+    "test": "jshint examples/*.js"
   },
   "repository": {
     "type": "git",
