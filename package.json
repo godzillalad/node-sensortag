@@ -2,7 +2,7 @@
   "name": "node-sensortag",
   "version": "1.2.4",
   "description": "Node.js lib for the TI SensorTag, adding in the dev dependencies to make life easier for single npm install",
-  "main": "sensortag.js",
+  "main": "app.js",
   "scripts": {
     "test": "jshint examples/*.js"
   },

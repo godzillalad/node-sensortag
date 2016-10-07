@@ -7,6 +7,7 @@ Node.js lib for the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor) and [
 
 ## Prerequisites
 
+ * [nodeJs] guide](https://github.com/nodejs/node-gyp#installation)
  * [node-gyp install guide](https://github.com/nodejs/node-gyp#installation)
  * [noble prerequisites](https://github.com/sandeepmistry/noble#prerequisites)
  * [noble](https://github.com/sandeepmistry/noble#install)
@@ -17,15 +18,26 @@ Node.js lib for the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor) and [
  sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
  sudo npm install noble
 ```
+
+#### Windows Tested
+```sh
+ npm install -g node-gyp  [ make sure to use up-to-date version see : https://stackoverflow.com/questions/38149603/npm-install-fails-with-error-c2373-with-vs2015-update-3  ]
+ npm install --global --production windows-build-tools
+ 
+ download http://zadig.akeo.ie/ 
+  
+ npm install noble
+```
  
 ## Install
 
 Take the code directly from GitHub as it's not hosted on NPM repo
 
 ```sh
- sudo npm install https://github.com/godzillalad/node-sensortag
+ cd <dir>
+ git clone https://github.com/godzillalad/node-sensortag <dir>
+ npm install
 ```
-TODO : Make sure to install the async module
 
 
 ## Examples
@@ -35,6 +47,11 @@ See [test.js](test.js) or [sensorTag folder in Tom Igoe's BluetoothLE-Examples r
 #### Run a disovery of all sensor tags
 ```javascript
 node node_modules/node-sensortag/examples/test-discover.js
+```
+
+#### Run a disovery of all sensor tag attributes
+```javascript
+node node_modules/node-sensortag/examples/test.js
 ```
 
 

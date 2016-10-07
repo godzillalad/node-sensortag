@@ -2,7 +2,7 @@ var util = require('util');
 
 var async = require('async');
 
-var CC2650SensorTag = require('../sensortag').CC2650;
+var CC2650SensorTag = require('../lib/sensortag').CC2650;
 
 var USE_READ = true;
 
