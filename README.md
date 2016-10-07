@@ -25,9 +25,7 @@ Node.js lib for the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor) and [
  npm install --global --production windows-build-tools
  
  download http://zadig.akeo.ie/ 
- 
- npm install bluetooth-hci-socket 
- npm install noble
+  
 ```
  
 ## Install
@@ -38,6 +36,9 @@ Take the code directly from GitHub as it's not hosted on NPM repo
  cd <dir>
  git clone https://github.com/godzillalad/node-sensortag <dir>
  npm install
+ 
+ npm install bluetooth-hci-socket 
+ npm install noble
 ```
 
 
